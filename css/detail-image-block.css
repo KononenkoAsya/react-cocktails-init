@@ -1,0 +1,94 @@
+/*This block for displaying additional images*/
+
+
+@media (max-width: 480px) {
+
+.additional-info__left-block {
+	width: 80%;
+	margin: 10% 10% 0 10%;
+}
+
+.left-block__detail-image-block {
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.detail-image-block__detail-drink-image {
+	width: 80%;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	position: relative;
+}
+
+.detail-image-block__drinks-names {
+	font-family: 'Gaegu', cursive;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+
+.additional-info__left-block {
+	width: 60%;
+	margin: 30px 20%;
+}
+
+.left-block__detail-image-block {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.detail-image-block__detail-drink-image {
+	width: 80%;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.detail-image-block__drinks-names {
+	font-family: 'Gaegu', cursive;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+}
+
+@media (min-width: 769px) {
+	
+.additional-info__left-block {
+		width: 30%;
+		float: left;
+		margin: 5%;
+}
+.left-block__detail-image-block {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.detail-image-block__detail-drink-image {
+	width: 80%;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.detail-image-block__drinks-names {
+	font-family: 'Gaegu', cursive;
+	font-size: 35px;
+	margin-bottom: 50px;
+}
+}

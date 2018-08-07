@@ -1,0 +1,15 @@
+/*body and title of page*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(../image/background.jpg);
+	padding-bottom: 50px;
+}
+
+.title-ingredients {
+	font-size: 55px;
+	color: white;
+	text-align: center;
+	position: relative;
+}
